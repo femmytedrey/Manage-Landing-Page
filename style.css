@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Be+Vietnam+Pro:wght@400;500;700&family=Josefin+Sans&family=Poppins&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', Helvetica, sans-serif;
+}
+
+.container{
+
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.logo{
+    height: 100%;
+    width: 25%;
+    background-color: red;
+    display: flex;
+    padding-left: 125px;
+    align-items: center;
+}
+
+.list{
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    display: flex;
+    
+}
+ul.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: brown;
+    height: 100%;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+}
+li.item{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    align-items: space-around;
+    justify-content: center;
+    
+    
+    /* background-color: yellow; */
+}
+
+li.item a{
+    text-decoration: none;
+}
+
+.gettingStart{
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 115px;
+}
+
+.getstarted{
+    height: 45px;
+    width: 140px;
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+    cursor: pointer;
+}
+
+
+
+
+
+
+.hamburger{
+    display: none;
+}
+.closehamburger{
+    display: none;
+}
+
+
+
+
+.top{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: teal;
+    padding-left: 155px;
+    padding-right: 145px;
+}
+
+.topleft{
+    width: 50%;
+    height: 100%;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.topheading{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 65px;
+    padding-bottom: 35px;
+    color: hsl(228, 39%, 23%);
+}
+
+.topbody{
+    font-size: 16px;
+    margin-right: 270px;
+    line-height: 25px;
+    padding-bottom: 35px;
+    
+}
+.topright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+
+}
