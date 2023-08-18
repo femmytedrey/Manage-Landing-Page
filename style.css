@@ -14,7 +14,14 @@
     flex-direction: column;
     background-image: url(images/bg-simplify-section-desktop.svg);
 }
-
+.error{
+    width: 100%;
+    color: rgb(161, 0, 0);
+    padding-left: 18px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: italic;
+}
 nav{
     display: flex;
     height: 80px;
@@ -1070,6 +1077,7 @@ input{
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
+        margin-top: 25px;
         background-color: teal;
         
 
@@ -1090,7 +1098,7 @@ input{
     
     .footerdiv4{
         width: 100%;
-        height: 80px;
+        height: auto;
         display: flex;
         flex-direction: column;
         order: 1;
