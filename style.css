@@ -61,6 +61,11 @@ li.item{
 
 li.item a{
     text-decoration: none;
+    color: black;
+}
+
+li.item a:hover{
+    color: rgba(0, 0, 0, 0.448);
 }
 
 .gettingStart{
@@ -83,6 +88,12 @@ li.item a{
     box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
     cursor: pointer;
     font-weight: 700;
+    transition: width 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.getstarted:hover{
+    width: 150px;
+    background-color: hsl(12, 82%, 65%);
 }
 
 
@@ -276,28 +287,26 @@ li.item a{
 
 
 
-.middle2bottom{
+.middle2bottom {
     height: 50%;
     width: 100%;
     overflow-x: scroll;
     overflow-y: none;
-    white-space: nowrap;
+    white-space: nowrap; /* Keep this for horizontal scrolling */
     background-color: green;
     scrollbar-width: none;
-    /* margin-bottom: 30px; */
 }
 
 .middle2bottom::-webkit-scrollbar {
     width: 0; /* Hide WebKit scrollbar */
-  }
-
-.middle2bottomtop{
-    display: inline-block;
-    height: 100%
-
 }
 
-.parent{
+.middle2bottomtop {
+    display: inline-block;
+    height: 100%;
+}
+
+.parent {
     width: 600px;
     display: inline-block;
     height: 95%;
@@ -305,26 +314,23 @@ li.item a{
     padding-top: 40px;
     padding-left: 30px;
     padding-bottom: 0;
-    position: relative
-    
+    position: relative;
 }
 
-.testifierImage{
+.testifierImage {
     height: 80px;
     width: 80px;
     position: absolute;
     z-index: 1;
     top: 3px;
-    left: 260px
-    
+    left: 260px;
 }
 
-.testifiers1{
+.testifiers1 {
     height: 100%;
     width: 95%;
     background-color: hsl(0, 0%, 98%);
     position: relative;
-    text-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,21 +338,24 @@ li.item a{
     padding-left: 34px;
     padding-right: 34px;
     padding-top: 50px;
-    
 }
 
-.testifiersname{
+.testifiersname {
     font-size: 18px;
     font-weight: 700;
     padding-bottom: 15px;
     line-height: 55px;
     color: hsl(228, 39%, 23%);
 }
-.testimony{
+
+.testimony {
     font-size: 16px;
     font-weight: 400;
     color: rgba(81, 81, 81, 0.821);
     line-height: 27px;
+    white-space: normal; /* Allow vertical text wrapping */
+    max-height: 100px; /* Adjust the value as needed */
+    overflow: hidden;
 }
 
 .middle2bottombottom{
@@ -402,6 +411,12 @@ li.item a{
     box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
     cursor: pointer;
     font-weight: 700;
+    transition: width 0.3s ease-out, background-color 0.3s ease-out;
+}
+.getstarted1:hover{
+    width: 150px;
+    background-color: white;
+    color: hsl(12, 68%, 71%);
 }
 
 .footerdiv{
@@ -496,3 +511,81 @@ input{
     align-items: flex-end;
 }
 
+
+/* Tablet Target */
+/* @media (min-width: 768px) and (max-width: 1366px){
+    .logo{
+        width: 20%;
+        background-color: red;
+        padding-left: 30px;
+    }
+
+    .list{
+        height: 100%;
+        width: 60%;
+        background-color: green;
+        display: flex;
+        
+    }
+
+    .gettingStart{
+        height: 100%;
+        width: 20%;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 30px;
+    }
+
+    ul.menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: brown;
+        height: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        
+    }
+
+    .logoImage{
+        width: 115px;
+    }
+
+    .getstarted{
+        height: 40px;
+        width: 100px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+        cursor: pointer;
+        font-weight: 700;
+        transition: width 0.3s ease-out, background-color 0.3s ease-out;
+    }
+    
+    .getstarted:hover{
+        width: 110px;
+        background-color: hsl(12, 82%, 65%);
+    }
+
+    .top{
+        display: flex;
+        height: 650px;
+        width: 100%;
+        background-color: teal;
+        padding-left: 155px;
+        padding-right: 30px;
+    }
+} */
+
+
+
+/* Mobile Target */
+@media ((max-width: 1024px) and (min-width: 375px)) {
+    
+    
+}
