@@ -8,7 +8,10 @@
 }
 
 .container{
-
+    height: 5000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -98,7 +101,7 @@ li.item a{
 
 .top{
     display: flex;
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-color: teal;
     padding-left: 155px;
@@ -125,9 +128,10 @@ li.item a{
 
 .topbody{
     font-size: 16px;
-    margin-right: 270px;
+    margin-right: 255px;
     line-height: 25px;
     padding-bottom: 35px;
+    color: rgba(81, 81, 81, 0.821);
     
 }
 .topright{
@@ -138,4 +142,207 @@ li.item a{
     justify-content: center;
     background-color: gray;
 
+}
+
+
+
+.middle1{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    background-color: cyan;
+    padding-left: 155px;
+    padding-right: 145px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.middle1left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.middle1leftheading{
+    font-size: 44px;
+    font-weight: 900;
+    color: hsl(228, 39%, 23%);
+    padding-bottom: 30px;
+    
+}
+
+.middle1leftbody{
+    color: rgba(81, 81, 81, 0.821);
+    font-size: 16px;
+    margin-right: 255px;
+    line-height: 25px;
+}
+
+.middle1right{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.middle1righttop{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+
+.middle1rightmiddle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 32%;
+}
+
+.middle1rightbottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+}
+
+.headbox{
+    display: flex;
+    height: 25%;
+    width: 100%;
+    background-color: brown;
+    align-items: center;
+}
+.numbering{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+.content{
+    width: 87%;
+    padding-left: 25px;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+    font-size: 15px;
+}
+
+.bodybox{
+    height: 75%;
+    width: 100%;
+    background: white;
+    padding-left: 105px;
+    
+}
+.bodycontent{
+    color: rgba(81, 81, 81, 0.821);
+    font-size: 16px;
+    margin-right: 45px;
+    line-height: 25px;
+}
+
+.middle2{
+    height: 500px;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle2top{
+    height: 25%;
+    width: 100%;
+    color: hsl(228, 39%, 23%);
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+
+.middle2bottom{
+    height: auto;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: none;
+    white-space: nowrap;
+    background-color: green;
+    scrollbar-width: none;
+}
+
+.middle2bottom::-webkit-scrollbar {
+    width: 0; /* Hide WebKit scrollbar */
+  }
+
+.middle2bottomtop{
+    display: inline-block;
+    height: 100%
+
+}
+
+.parent{
+    width: 600px;
+    display: inline-block;
+    height: 95%;
+    background-color: tomato;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 0;
+    position: relative
+    
+}
+
+.testifierImage{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    left: 260px
+    
+}
+
+.testifiers1{
+    height: 100%;
+    width: 95%;
+    background-color: hsl(0, 0%, 98%);
+    position: relative;
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 50px;
+    
+}
+
+.testifiersname{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    line-height: 55px;
+    color: hsl(228, 39%, 23%);
+}
+.testimony{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 0.821);
+    line-height: 27px;
 }
