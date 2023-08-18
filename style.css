@@ -276,13 +276,14 @@ li.item a{
 
 
 .middle2bottom{
-    height: auto;
+    height: 50%;
     width: 100%;
     overflow-x: scroll;
     overflow-y: none;
     white-space: nowrap;
     background-color: green;
     scrollbar-width: none;
+    /* margin-bottom: 30px; */
 }
 
 .middle2bottom::-webkit-scrollbar {
@@ -345,4 +346,13 @@ li.item a{
     font-weight: 400;
     color: rgba(81, 81, 81, 0.821);
     line-height: 27px;
+}
+
+.middle2bottombottom{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
 }
