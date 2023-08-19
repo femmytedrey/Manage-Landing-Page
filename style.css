@@ -28,7 +28,7 @@ nav{
     align-items: center;
     height: 100px;
     width: 100%;
-    background-color: hsl(13, 100%, 96%);
+    background-color: white;
     z-index: 20;
 }
 
@@ -693,7 +693,6 @@ input{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: gray;
         order: 1;
         padding-bottom: 40px;
     
@@ -868,7 +867,6 @@ input{
     }
     .middle2bottombottom{
         order: 4;
-        background-color: green;
     }
 
 
@@ -912,7 +910,7 @@ input{
     .testifiers0{
         height: 90%;
         width: 100%;
-        background-color: white;
+        background-color: rgb(250, 250, 250);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -925,7 +923,7 @@ input{
     .quicksolve{
         width: 100%;
         height: 100%;
-        background-color: yellow;
+        background-color: #f1f1f1;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -953,7 +951,7 @@ input{
     .parent3,
     .parent4 {
         width: 100vw; /* Each parent occupies the full width of the screen */
-        background-color: green;
+        /* background-color: green; */
         scroll-snap-align: start; /* Snap each parent to the start of the viewport */
         padding: 0px;
         box-sizing: border-box; /* Include padding in width calculation */
@@ -1286,10 +1284,11 @@ input{
     .circle-indicators {
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-top: 10px;
-        height: 30px;
+        height: 60px;
         width: 100%;
-        background-color: powderblue;
+        /* background-color: powderblue; */
       }
       
       .circle {

@@ -8,14 +8,21 @@ parentContainers.forEach(() => {
   circleIndicators.appendChild(circle);
 });
 
+const containerWidth = parentContainers[0].clientWidth; // Assuming all containers have the same width
+
+const updateActiveCircle = () => {
+  const scrollPos = document.querySelector('.middle2bottomtop1').scrollLeft;
+  const activeIndex = Math.floor(scrollPos / containerWidth);
+
+  const activeCircle = circleIndicators.querySelector('.circle.active');
+  if (activeCircle) {
+    activeCircle.classList.remove('active');
+  }
+  circleIndicators.children[activeIndex].classList.add('active');
+};
+
 // Handle scroll event to update active circle
-parentContainers.forEach((container, index) => {
-  container.addEventListener('scroll', () => {
-    console.log('Scroll event triggered for container', index);
-    
-    const scrollPos = container.scrollLeft;
-    const containerWidth = container.clientWidth; // Use the current container's width
-    console.log('scrollPos:', scrollPos);
-    console.log('containerWidth:', containerWidth);
-  });
-});
+document.querySelector('.middle2bottomtop1').addEventListener('scroll', updateActiveCircle);
+
+// Update active circle initially
+updateActiveCircle();
