@@ -14,7 +14,7 @@
     flex-direction: column;
     background-image: url(images/bg-simplify-section-desktop.svg);
 }
-.error{
+.error-message{
     width: 100%;
     color: rgb(161, 0, 0);
     padding-left: 18px; 
