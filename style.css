@@ -566,7 +566,7 @@ input{
 
 
 /* Mobile Target */
-@media (max-width: 940px){
+@media (max-width: 1024px){
     .logo{
         width: 20%;
         padding-left: 30px;
