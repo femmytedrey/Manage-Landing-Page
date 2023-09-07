@@ -47,6 +47,3 @@ const setHamburger = () => {
 }
 
 setHamburger();
-
-
-
