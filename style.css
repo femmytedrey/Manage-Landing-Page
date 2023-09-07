@@ -16,7 +16,7 @@
 }
 .error-message{
     width: 100%;
-    color: rgb(161, 0, 0);
+    color: hsl(12, 88%, 59%);
     padding-left: 18px; 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -529,6 +529,7 @@ input{
     border-radius: 50px;
     border: none;
     padding-left: 15px;
+    outline: none;
 }
 .submit{
     height: 50px;
